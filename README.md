@@ -1,31 +1,43 @@
-Unity Texture Compression Tool
+
+# Unity Texture Compression Tool
+
 This tool is designed to compress and optimise texture files used in Unity projects. This compression process reduces project size and improves game performance while maintaining visual quality.
 
-Usage.
 
-Execute button on the -TextureCompressor tab starts the compression process.(To be changed)
+## Road Map
 
-Texture Selection: Select the texture files in your project that you want to optimise as folders.
+- Compression Levels: You can choose between different compression levels, allowing you to balance performance and quality.
 
-Compression Options: Specify the compression level and other optimisation options.
+- Platform Support: Customised compression options are available for different platforms, so you can optimise for each platform.
 
-Compression Process: Compress the texture files according to the options you selected.
+- Auto Update: Compression process can be started automatically when texture files are changed or new texture is added.
 
- Properties
+- Editor code will be added for ease of use.
 
-Compression Levels: You can choose between different compression levels, allowing you to balance performance and quality.
+  
+## Methods
 
-[To be added] 
-Platform Support: Customised compression options are available for different platforms, so you can optimise for each platform.
+```c#
+//Just call this
+TextureCompressEditor.Instance.ChangeTextureSettings();
 
-[To be added] 
-Auto Update: Compression process can be started automatically when texture files are changed or new texture is added.
+//Textures under this folder will be affected.
+string[] searchInFolders = { "Assets/Textures" };// For now
+List<string> textures = Instance.GetTexturesPath(searchInFolders);
 
-[To be added] 
-Editor code will be added for ease of use.
+//You can find the changed properties in the TextureSettings class.
+public int maxTextureSize;
+public TextureImporterFormat textureFormat;
+public TextureImporterCompression textureCompression;
+[Range(0, 100)] 
+public int compressionQuality;
+public bool crunchedCompression;
+public bool mipmapEnabled;
+```
 
-Contribution
-We welcome your contributions! If you want to improve this tool or fix bugs, feel free to send a pull request.
+  
+## Lisans
 
-Licence
-This project is licensed under the MIT Licence. For more information, see the licence file.
+[MIT](https://choosealicense.com/licenses/mit/)
+
+  
