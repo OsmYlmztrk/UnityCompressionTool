@@ -1,10 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
-using UnityEditor.Presets;
-using UnityEngine;
-using Unity.EditorCoroutines.Editor; 
+using UnityEditor; 
+using UnityEngine; 
 using Noss.Utilities;
 
 [InitializeOnLoad]
