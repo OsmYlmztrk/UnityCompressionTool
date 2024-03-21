@@ -29,5 +29,3 @@ We welcome your contributions! If you want to improve this tool or fix bugs, fee
 
 Licence
 This project is licensed under the MIT Licence. For more information, see the licence file.
-
-Translated with DeepL.com (free version)
