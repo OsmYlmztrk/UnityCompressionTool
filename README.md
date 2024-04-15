@@ -4,9 +4,19 @@
 This tool is designed to compress and optimise texture files used in Unity projects. This compression process reduces project size and improves game performance while maintaining visual quality.
 
 
-## Ekran Görüntüleri
+## Screenshots
 
-![SS](https://prnt.sc/6mafUXNQY9N4) 
+![Compress all assets in your project at once](https://github.com/OsmYlmztrk/TextureCompress/assets/119442331/1d109e38-88b9-475e-840a-8ab14d5b8116)
+
+![AreYouSure?](https://github.com/OsmYlmztrk/TextureCompress/assets/119442331/d6aad9df-9853-4b77-8be7-ed813152ec1a)
+
+  
+## Features
+
+- Texture, Mesh, Audio, Animation compress operations
+- Folder based selections
+- User Friendly interface
+- Default, Standalone, Android, iOS platform support
 
   
 ## Road Map
