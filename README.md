@@ -6,14 +6,14 @@ This tool is designed to compress and optimise texture files used in Unity proje
 Please contact us for feature requests.
 If you notice any problems, please get in contact and we will get back to you within 12 hours.
 
-1. Texture Compression:
+1. Texture Compression:\
 Max Texture Size\
 Resise Algorithm\
 Format\
 Compression\
 Use Crunch Compression
 
-2. Mesh Compression:
+2. Mesh Compression:\
 Mesh Compression
 
 3. Audio Compression:\
@@ -26,13 +26,8 @@ Quality\
 Sample Rate Setting\
 Sample Rate
 
-4. Animation Optimisation:
+4. Animation Optimisation:\
 Animation Compression
-
-5. Easy Operation:
-It has a simple and user-friendly interface.\
-It automates the process and saves developers time.\
-It can be easily integrated into Unity projects.
 
 (*Some settings may not always be selectable because they are active according to the chosen option.)
 
