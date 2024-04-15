@@ -35,8 +35,9 @@ It automates the process and saves developers time.\
 It can be easily integrated into Unity projects.
 
 (*Some settings may not always be selectable because they are active according to the chosen option.)
-## Youtube Overiew
-[![Soda Gaming - Asset Compress Tool](https://img.youtube.com/vi/WcqipOI2PIw/0.jpg)](https://www.youtube.com/watch?v=WcqipOI2PIw)
+
+## Overiew
+https://github.com/OsmYlmztrk/UnityCompressionTool/assets/119442331/b7add0b1-f93b-4529-b249-449d903a944c
 
 ## Screenshots
 
