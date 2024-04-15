@@ -3,7 +3,38 @@
 
 This tool is designed to compress and optimise texture files used in Unity projects. This compression process reduces project size and improves game performance while maintaining visual quality.
 
+Please contact us for feature requests.
+If you notice any problems, please get in contact and we will get back to you within 12 hours.
 
+1. Texture Compression:
+Max Texture Size\
+Resise Algorithm\
+Format\
+Compression\
+Use Crunch Compression
+
+2. Mesh Compression:
+Mesh Compression
+
+3. Audio Compression:
+Force To Mono\
+Normalised\
+Load Type\
+Preload Data\
+Compression Format\
+Quality\
+Sample Rate Setting\
+Sample Rate
+
+4. Animation Optimisation:
+Animation Compression
+
+5. Easy Operation:
+It has a simple and user-friendly interface.\
+It automates the process and saves developers time.\
+It can be easily integrated into Unity projects.
+
+(*Some settings may not always be selectable because they are active according to the chosen option.)
 ## Youtube Overiew
 [![Soda Gaming - Asset Compress Tool](https://img.youtube.com/vi/WcqipOI2PIw/0.jpg)](https://www.youtube.com/watch?v=WcqipOI2PIw)
 
@@ -24,18 +55,18 @@ This tool is designed to compress and optimise texture files used in Unity proje
   
 ## Road Map
 
-- ~~Compression Levels: You can choose between different compression levels, allowing you to balance performance and quality.~~
+- Compression Levels: You can choose between different compression levels, allowing you to balance performance and quality.
 
-- ~~Platform Support: Customised compression options are available for different platforms, so you can optimise for each platform.~~
+- Platform Support: Customised compression options are available for different platforms, so you can optimise for each platform.
 
-- ~~Editor code will be added for ease of use.~~
-  
 - Auto Update: Compression process can be started automatically when texture files are changed or new texture is added.
+
+- Editor code will be added for ease of use.
 
   
 ## Methods
 
-```c##
+```c++
 //Just call this
 TextureCompressEditor.Instance.ChangeTextureSettings();
 
