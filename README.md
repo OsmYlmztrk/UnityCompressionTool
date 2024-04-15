@@ -1,7 +1,7 @@
 
-# Unity Texture Compression Tool
+# Unity Compression Tool
 
-This tool is designed to compress and optimise texture files used in Unity projects. This compression process reduces project size and improves game performance while maintaining visual quality.
+"Unity Compression Tool", is a powerful tool designed to help Unity game developers easily change the size and settings of their assets. This tool aims to save time by bringing all texture, mesh, audio and animation files in the folder you select in your game to the desired settings with a single click.
 
 
 ## Screenshots
