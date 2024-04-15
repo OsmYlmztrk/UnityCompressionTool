@@ -4,6 +4,11 @@
 This tool is designed to compress and optimise texture files used in Unity projects. This compression process reduces project size and improves game performance while maintaining visual quality.
 
 
+## Ekran Görüntüleri
+
+![SS](https://prnt.sc/6mafUXNQY9N4) 
+
+  
 ## Road Map
 
 - Compression Levels: You can choose between different compression levels, allowing you to balance performance and quality.
