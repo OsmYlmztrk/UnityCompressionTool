@@ -16,7 +16,7 @@ Use Crunch Compression
 2. Mesh Compression:
 Mesh Compression
 
-3. Audio Compression:
+3. Audio Compression:\
 Force To Mono\
 Normalised\
 Load Type\
