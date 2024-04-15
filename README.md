@@ -55,13 +55,14 @@ It can be easily integrated into Unity projects.
   
 ## Road Map
 
-- Compression Levels: You can choose between different compression levels, allowing you to balance performance and quality.
+- ~~Compression Levels: You can choose between different compression levels, allowing you to balance performance and quality.~~
 
-- Platform Support: Customised compression options are available for different platforms, so you can optimise for each platform.
+- ~~Platform Support: Customised compression options are available for different platforms, so you can optimise for each platform.~~
 
+- ~~Editor code will be added for ease of use.~~
+  
 - Auto Update: Compression process can be started automatically when texture files are changed or new texture is added.
 
-- Editor code will be added for ease of use.
 
   
 ## Methods
